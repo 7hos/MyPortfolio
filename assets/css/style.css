@@ -204,7 +204,7 @@ a:hover {
 .socials ul li {
   display: inline-block;
 }
-.socials .ico-circle {
+/* .socials .ico-circle {
   height: 40px;
   width: 40px;
   font-size: 1.2rem;
@@ -213,13 +213,13 @@ a:hover {
   margin: 0 15px 0 0;
   box-shadow: 0 0 0 3px #86C232;
   transition: all 500ms ease;
-}
-.socials .ico-circle:hover {
+} */
+/* .socials .ico-circle:hover {
   background-color: #86C232;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
-}
+} */
 
 /*------/ Ul resect /------*/
 .ul-resect, .widget-tags ul, .widget-sidebar .list-sidebar, .box-comments .list-comments, .blog-wrapper .post-meta ul, .list-ico, .socials ul {
@@ -237,7 +237,7 @@ a:hover {
 }
 
 /*------/ Ico Circle /------*/
-.ico-circle {
+/* .ico-circle {
   height: 100px;
   width: 100px;
   font-size: 2rem;
@@ -247,7 +247,7 @@ a:hover {
   text-align: center;
   box-shadow: 0 0 0 10px #86C232;
   display: block;
-}
+} */
 
 /*------/ Owl Carousel /------*/
 .owl-theme .owl-dots {
