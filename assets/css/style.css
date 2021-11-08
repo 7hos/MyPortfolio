@@ -309,9 +309,10 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #86C232;
+  background: black;
   width: 40px;
   height: 40px;
+  border: #298eff;
   border-radius: 50px;
   transition: all 0.4s;
 }
