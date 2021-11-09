@@ -1,0 +1,205 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* CSS variable */
+
+/* Navigation bar */
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    /* remove the bullet point */
+    list-style: none;
+    font-size: 25px;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 25px 25px;
+    /* remove the underline */
+    text-decoration: none;
+    color: white;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+#navbar::before{
+    content:"";
+    background-color: rgb(95,60,35);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* z-index take from hiden behind */
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#logo img{
+    width: 200px;
+    margin: 20px 30px;
+}
+
+header{
+    background: url(../img/background/pizza-4968645_1920.jpg) center no-repeat ;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+}
+
+/* @media (max-width: 800px ){
+    header {
+        background-color: grey;
+    }
+
+} */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.slogan{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.slogan h1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    position:static;
+}
+
+.slogan img{
+    width: 300px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+.slogan button{
+    width: 150px;
+    padding: 10px 10px;
+    background-color: rgb(211, 90, 48);
+}
+
+.slogan a{
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 20px;
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.our-foods{
+    background-image: url(../img/background/pexels-pixabay-372882.jpg);
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.our-foods h2{
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+.our-foods p{
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.food {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.food .food-type img{
+
+    width: 350px;
+    margin: 20px 20px;
+    padding: 20px 20px;
+}
+
+.clients{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+ .clients img{
+    width: 300px;
+    padding: 20px 20px;
+    margin: 20px 20px;
+} 
+h2{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+p{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.section{
+    background-image: url(../img/background/pizza-4952509_1920.jpg);
+    text-align: center;
+    color: white;
+    justify-content: center;
+    padding: 30px;
+    
+}
+
+
+.section #formArea{
+
+    padding: 25px;
+    margin: 35px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.section button{
+    width: 150px;
+    padding: 10px 10px;
+    background-color: rgb(211, 90, 48);
+}
+
+.section input{
+    margin: 10px;
+    width: 300px;
+    height: 50px;
+}
+
+.maps {
+    /* width: 100%; */
+    background-image: url(../img/background/pizza-4952509_1920.jpg);
+    align-content: center;
+}
