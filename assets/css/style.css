@@ -6,23 +6,14 @@ body {
   color: #4e4e4e;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  /* color: #1e1e1e; */
-  color: #61892F;
-}
+
 
 a {
-  color: #61892F;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
 a:hover {
-  color: #86C232;
+  color: #7F00FF;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -33,7 +24,7 @@ a:hover {
 
 .color-a {
   text-decoration: none;
-  color: #86C232;
+  color: #7F00FF;
 }
 
 .color-d {
@@ -84,10 +75,7 @@ a:hover {
     background-attachment: scroll;
   }
 }
-/* cover image with color */
-.overlay-mf {
-  background-color: #474b4f;
-}
+
 
 .overlay-mf {
   position: absolute;
@@ -131,7 +119,6 @@ a:hover {
 /*--/ Title s /--*/
 .title-s {
   font-weight: 600;
-  color: #61892F;
   font-size: 1.1rem;
 }
 
@@ -156,7 +143,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #86C232;
+  background-color: #ffff;
   margin: 0 auto;
 }
 
@@ -173,7 +160,7 @@ a:hover {
   content: "";
   position: absolute;
   height: 3px;
-  background-color: #86C232;
+  background-color: #000000;
   width: 100px;
   bottom: -12px;
 }
@@ -204,22 +191,6 @@ a:hover {
 .socials ul li {
   display: inline-block;
 }
-/* .socials .ico-circle {
-  height: 40px;
-  width: 40px;
-  font-size: 1.2rem;
-  border-radius: 50%;
-  line-height: 1.6;
-  margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #86C232;
-  transition: all 500ms ease;
-} */
-/* .socials .ico-circle:hover {
-  background-color: #86C232;
-  color: #fff;
-  box-shadow: 0 0 0 3px #cde1f8;
-  transition: all 500ms ease;
-} */
 
 /*------/ Ul resect /------*/
 .ul-resect, .widget-tags ul, .widget-sidebar .list-sidebar, .box-comments .list-comments, .blog-wrapper .post-meta ul, .list-ico, .socials ul {
@@ -232,22 +203,9 @@ a:hover {
   line-height: 2;
 }
 .list-ico span {
-  color: #86C232;
   margin-right: 10px;
 }
 
-/*------/ Ico Circle /------*/
-/* .ico-circle {
-  height: 100px;
-  width: 100px;
-  font-size: 2rem;
-  border-radius: 50%;
-  line-height: 1.55;
-  margin: 0 auto;
-  text-align: center;
-  box-shadow: 0 0 0 10px #86C232;
-  display: block;
-} */
 
 /*------/ Owl Carousel /------*/
 .owl-theme .owl-dots {
@@ -285,7 +243,7 @@ a:hover {
   position: fixed;
   width: 42px;
   height: 42px;
-  background-color: #86C232;
+  background-color: #7F00FF;
   opacity: 0.7;
   font-size: 1.6rem;
   line-height: 1.5;
@@ -348,7 +306,7 @@ a:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #86C232;
+  border-top: 6px solid #7F00FF;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -399,7 +357,7 @@ a:hover {
 
 .button-a {
   text-decoration: none;
-  background-color: #86C232;
+  background-color: #7F00FF;
   color: #fff;
   border-color: #cde1f8;
 }
@@ -569,7 +527,7 @@ a:hover {
   color: #4e4e4e;
 }
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #86C232;
+  color: lightslategray;
 }
 .navbar-mobile .getstarted, .navbar-mobile .getstarted:focus {
   margin: 15px;
@@ -638,7 +596,7 @@ a:hover {
 }
 .hero-single .breadcrumb {
   background-color: transparent;
-  color: #86C232;
+  color: #7F00FF;
 }
 .hero-single .breadcrumb .breadcrumb-item:before {
   color: #cde1f8;
@@ -676,13 +634,25 @@ a:hover {
 .skill-mf .progress {
   background-color: #cde1f8;
   margin: 0.5rem 0 1.2rem 0;
-  border-radius: 0;
+  border-radius: 5px;
   height: 0.7rem;
 }
 .skill-mf .progress .progress-bar {
   height: 0.7rem;
-  background-color: #86C232;
+  background-color: #474b4f;
+  -webkit-animation: animate-positive 2s;
+  animation: animate-positive 2s;
 }
+
+/* animate progrssion bar */
+@-webkit-keyframes animate-positive{
+  0% { width: 0; }
+}
+@keyframes animate-positive{
+  0% { width: 0; }
+}
+
+
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -712,16 +682,15 @@ a:hover {
   color: #4e4e4e;
   font-size: 0.8rem;
 }
-.work-content .w-more .w-ctegory {
-  color: #86C232;
-}
+
 .work-content .w-like {
   font-size: 2.5rem;
-  color: #86C232;
+  color: #7F00FF;
   float: right;
 }
+/* portfolio githab icon color */
 .work-content .w-like a {
-  color: #86C232;
+  color: #000000;
 }
 .work-content .w-like .num-like {
   font-size: 0.7rem;
@@ -749,10 +718,10 @@ a:hover {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #86C232;
+  border: 1px solid #7F00FF;
 }
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #86C232;
+  background-color: #7F00FF;
 }
 .portfolio-details .portfolio-info {
   padding: 30px;
@@ -802,7 +771,7 @@ a:hover {
   }
 }
 
-.php-email-form .error-message {
+.email-form .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -810,7 +779,7 @@ a:hover {
   padding: 15px;
   font-weight: 600;
 }
-.php-email-form .sent-message {
+.email-form .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -818,13 +787,13 @@ a:hover {
   padding: 15px;
   font-weight: 600;
 }
-.php-email-form .loading {
+.email-form .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
-.php-email-form .loading:before {
+.email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -836,29 +805,29 @@ a:hover {
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
-.php-email-form input, .php-email-form textarea {
+.email-form input, .email-form textarea {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
 }
-.php-email-form input:focus, .php-email-form textarea:focus {
-  border-color: #86C232;
+.email-form input:focus, .email-form textarea:focus {
+  border-color: #7F00FF;
 }
-.php-email-form input {
+.email-form input {
   padding: 10px 15px;
 }
-.php-email-form textarea {
+.email-form textarea {
   padding: 12px 15px;
   margin-bottom: 0;
 }
-.php-email-form button[type=submit] {
-  background: #86C232;
+.email-form button[type=submit] {
+  background: #000000;
   border: 0;
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
 }
-.php-email-form button[type=submit]:hover {
+.email-form button[type=submit]:hover {
   background: #3393ff;
 }
 
@@ -906,10 +875,9 @@ a:hover {
   padding-left: 25px;
 }
 .box-comments .list-comments a {
-  color: #86C232;
+  color: #7F00FF;
 }
 .box-comments .list-comments span {
-  color: #61892F;
   font-style: italic;
 }
 .box-comments .comment-children {
@@ -920,7 +888,7 @@ a:hover {
 .widget-sidebar .sidebar-title {
   font-size: 1.6rem;
   font-weight: 600;
-  border-left: 5px solid #86C232;
+  border-left: 5px solid #7F00FF;
   padding-left: 15px;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
@@ -935,7 +903,7 @@ a:hover {
   width: 10px;
   height: 1px;
   left: 0;
-  background-color: #86C232;
+  background-color: #7F00FF;
   top: 20px;
 }
 
@@ -945,8 +913,8 @@ a:hover {
   transition: all 0.5s ease-in-out;
 }
 .sidebar-search .btn-search {
-  background-color: #86C232;
-  border-color: #86C232;
+  background-color: #7F00FF;
+  border-color: #7F00FF;
   border-radius: 0;
   padding-left: 20px;
   padding-right: 20px;
@@ -954,7 +922,7 @@ a:hover {
 
 .widget-tags ul li {
   display: inline-block;
-  background-color: #86C232;
+  background-color: #7F00FF;
   padding: 0.2rem 0.6rem;
   margin-bottom: 0.5rem;
   border-radius: 15px;
@@ -1025,3 +993,10 @@ li.timeline-item::before {
 
 
 
+
+
+
+
+/* Test */
+/* linear-gradient(to right, #2c3b4e, #4a688a, #2c3b4e); */
+/* End Test */
