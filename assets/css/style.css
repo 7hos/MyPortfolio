@@ -657,7 +657,7 @@ a:hover {
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
-.box-shadow-full ul {
+.skill-icons-container ul {
   list-style: none;
   padding: 0em; /* Remove padding */
   margin: 0em; /* Remove margins */
@@ -667,8 +667,18 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-  .box-shadow-full ul {
-    display: block;
+
+  .fa-4x {
+    font-size: 2em;
+  }
+  .col p {
+    font-size: 8px;
+  }
+  .box-shadow-full {
+    padding: 0.3rem;
+    margin-bottom: 0rem;
+    position: relative;
+    background-color: #fff;
   }
 }
 
